@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4a3c1;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #f4a3c1;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 15px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #e190af;
+}
+
+.logout {
+    color: #ffdddd;
+    font-weight: bold;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.menu-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #d14778;
+}
+
+section {
+    background: #f8f8f8;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #d14778;
+}
+
+@media (max-width: 600px) {
+    #sidebar {
+        width: 200px;
+    }
+}
