@@ -166,4 +166,4 @@ Reemplaza `USUARIO` y `NOMBRE-DEL-REPOSITORIO` por los datos de tu repositorio e
 
 ## Autor
 
-Proyecto desarrollado para la gestion de la Dulceria El Pinguinito.
+Proyecto desarrollado por Javier Mendoza Mondragón para la gestion de la Dulceria El Pinguinito.
